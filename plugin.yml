@@ -1,0 +1,19 @@
+name: W5
+main: BlueWhale\W5\W5
+api:
+- 1.10.0
+- 2.0.0
+- 2.1.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+author: Whale
+version: 1.0.6
+softdepend: ["ZXDAKernel","EconomyAPI","WTask"]
+
+permission:
+ w5.command.player:
+  default: true
+ w5.command.op:
+  default: op
